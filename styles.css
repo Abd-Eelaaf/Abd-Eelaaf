@@ -22,6 +22,11 @@
         font-size: 12px
     }
 
+.marquee {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
 .marquee p {
  position: absolute;
  width: 100%;
@@ -57,4 +62,4 @@
  -webkit-transform: translateX(-100%);
  transform: translateX(-100%); 
  }
-    
+}
